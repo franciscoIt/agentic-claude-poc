@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "780c868b1467d485",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c0027b1792d94c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26deaab547c45510",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/Skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Skills"
+            }
+          },
+          {
+            "id": "1047874e7169aea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/Priority order.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Priority order"
+            }
+          },
+          {
+            "id": "818c3cdfa0d2ca24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/Good practices/Description.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Description"
+            }
+          },
+          {
+            "id": "ee08531ada0f1c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/Priority order.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Priority order"
+            }
+          },
+          {
+            "id": "9d147d83f01716a3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "img/Models.png"
+              },
+              "icon": "lucide-image",
+              "title": "Models"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c8ee93e26b2067c",
+    "type": "split",
+    "children": [
+      {
+        "id": "93283ab928d925b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54fe1d725674f5d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a4f974888762bb84",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c2c6c86d86031efe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0f2258a029534194",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ff99462804373bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0c9284c9d8f88c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "img/Models.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Models"
+            }
+          },
+          {
+            "id": "8e1c9c95b5accac6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "img/Models.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Models"
+            }
+          },
+          {
+            "id": "23bce0fc9dbbccf5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9ef948a68e2f1489",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e2d77aee2caa02d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "img/Models.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Models"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "54fe1d725674f5d5",
+  "lastOpenFiles": [
+    "img",
+    "base/Models.md",
+    "img/Models.png",
+    "Untitled.md",
+    "base/Priority order.md",
+    "Claude API",
+    "base/Skills.md",
+    "base/Folder structure.md",
+    "base/Claude resource types.md",
+    "base/Claude resource types.md.tmp.7184.dbff9652194c",
+    "base/Folder structure.md.tmp.7184.97e483077798",
+    "base/Good practices/Description.md.tmp.7184.edf331051a03",
+    "base/Skills.md.tmp.7184.012468ae7af6",
+    "base/Priority order.md.tmp.7184.41a6fd99e05e",
+    "base/Good practices/Description.md",
+    "base/Good practices",
+    "base/skills.md.tmp.18012.10932173db7d",
+    "Priority order.md.tmp.18012.2d9231e9576c",
+    "base"
+  ]
+}
