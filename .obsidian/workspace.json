@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Getting started with api.md",
+                "file": "Claude API/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Getting started with api"
+              "title": "Notes"
             }
           }
         ],
@@ -252,10 +252,10 @@
   },
   "active": "c45428796dc75b3c",
   "lastOpenFiles": [
+    "Claude API/Getting started with api.md",
     "request01.py.tmp.21900.c6030ca45e53",
     "request01.py",
-    "Getting started with api.md",
-    "Untitled.md",
+    "Claude API/Notes.md",
     "img/Models.png",
     "img",
     "base/Models.md",
@@ -270,7 +270,6 @@
     "base/Skills.md.tmp.7184.012468ae7af6",
     "base/Priority order.md.tmp.7184.41a6fd99e05e",
     "base/Good practices/Description.md",
-    "base/Good practices",
-    "base/skills.md.tmp.18012.10932173db7d"
+    "base/Good practices"
   ]
 }

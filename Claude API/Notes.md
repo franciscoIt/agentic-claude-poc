@@ -1,0 +1,1 @@
+There is not history on Claude API. It has to be retreived to give it context. (stateless)
