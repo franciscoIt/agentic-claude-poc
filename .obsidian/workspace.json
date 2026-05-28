@@ -100,9 +100,23 @@
               "icon": "lucide-file",
               "title": "temperature"
             }
+          },
+          {
+            "id": "4a9f66286dfbbec4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structure data (force it).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Structure data (force it)"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -264,10 +278,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "54fe1d725674f5d5",
+  "active": "4a9f66286dfbbec4",
   "lastOpenFiles": [
-    "Claude API/System prompt.md",
+    "claude_chat.py.tmp.13624.c26ae73dd3b7",
+    "claude_chat.py.tmp.13624.8b3018fd20cb",
     "Claude API/temperature.md",
+    "Structure data (force it).md",
+    "Claude API/System prompt.md",
     "claude_chat.py.tmp.12296.7206971c2e74",
     "claude_chat.py.tmp.12296.2cd4734de82c",
     "claude_chat.py.tmp.12296.efa303eedcd5",
@@ -286,7 +303,6 @@
     "base/Folder structure.md",
     "base/Claude resource types.md",
     "base/Claude resource types.md.tmp.7184.dbff9652194c",
-    "base/Folder structure.md.tmp.7184.97e483077798",
     "base/Good practices/Description.md"
   ]
 }

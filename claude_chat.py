@@ -67,6 +67,53 @@ def chat(system: str | None = None, temperature: float | None = None):
             print(f"Claude: {text}\n")
 
 
+_JSON_STOP ="```"
+# Prefilling is not supported on claude-sonnet-4-6 / claude-opus-4-6+.
+# claude-haiku-4-5 is the default here because it supports the technique.
+_JSON_MODEL_ID = "claude-haiku-4-5"
+
+
+def ask_json(prompt: str, system: str | None = None) -> str | None:
+    """Ask Claude for a JSON response using message prefilling + stop sequences.
+
+    Prefills the assistant turn with '{' to force a JSON object, then stops
+    generation at _JSON_STOP so the returned string is a complete JSON object.
+    """
+    client = _get_client()
+    json_system = (
+        f"Respond only with valid JSON. "
+        f"After the closing brace write {_JSON_STOP} on its own line."
+    )
+    if system:
+        json_system = f"{json_system}\n\n{system}"
+
+    messages = [
+        {"role": "user", "content": prompt},
+        {"role": "assistant", "content": "```json"},  # prefill — forces JSON object start
+    ]
+    try:
+        response = client.messages.create(
+            model=_JSON_MODEL_ID,
+            max_tokens=MAX_TOKENS,
+            system=json_system,
+            messages=messages,
+            stop_sequences=[_JSON_STOP],
+            temperature=1.0
+        )
+        text = response.content[0].text if response.content else ""
+        return ("{" + text).strip()
+    except anthropic.AuthenticationError:
+        print("Invalid API key. Check ANTHROPIC_API_KEY.")
+    except anthropic.RateLimitError as e:
+        retry_after = int(e.response.headers.get("retry-after", "60"))
+        print(f"Rate limited. Retry after {retry_after}s.")
+    except anthropic.APIConnectionError:
+        print("Network error. Check your internet connection.")
+    except anthropic.APIStatusError as e:
+        print(f"API error ({e.status_code}): {e.message}")
+    return None
+
+
 def stream_response(client, messages_history: list, system_context: str, temperature: float = 1.0) -> str:
     stream = client.messages.create(
         model=MODEL_ID,
@@ -89,12 +136,5 @@ def stream_response(client, messages_history: list, system_context: str, tempera
 
 
 if __name__ == "__main__":
-    system_context = "you are drunk, and a drunk does, they have hiccups when they talk"
-    temperature_context = 1.0
-
-    client = _get_client()
-    while True:
-        user_input = input("YOU: ").strip()
-        messages_history.append({"role": "user", "content": user_input})
-
-        stream_response(client, messages_history, system_context, temperature_context)
+    # result = ask_json("Give me a person with name, age, and city. how are you")
+    pass
