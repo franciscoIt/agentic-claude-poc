@@ -18,7 +18,7 @@ def _get_client() -> anthropic.Anthropic:
     return _client
 
 
-def send_msg(msg: str = "Hi", system: str | None = None) -> anthropic.types.Message | None:
+def send_msg(msg: str = "Hi", system: str | None = None, temperature: float | None = None) -> anthropic.types.Message | None:
     client = _get_client()
     response: anthropic.types.Message | None = None
     try:
@@ -27,6 +27,7 @@ def send_msg(msg: str = "Hi", system: str | None = None) -> anthropic.types.Mess
             model=MODEL_ID,
             max_tokens=MAX_TOKENS,
             messages=messages_history,
+            **({"temperature": temperature} if temperature else {}),
             **({"system": system} if system else {}),
         )
         messages_history.append({"role": "assistant", "content": response.content[0].text})
@@ -43,7 +44,7 @@ def send_msg(msg: str = "Hi", system: str | None = None) -> anthropic.types.Mess
         #     print(response.content[0].text)
     return response
 
-def chat(system: str | None = None):
+def chat(system: str | None = None, temperature: float = 1.0):
     print("Chat with Claude  |  type 'exit' or 'quit' to stop\n")
     while True:
         try:
@@ -58,7 +59,7 @@ def chat(system: str | None = None):
             print("Goodbye!")
             break
 
-        response = send_msg(msg,system)
+        response = send_msg(msg, system, temperature)
         if response:
             text = "\n".join(
                 block.text for block in response.content if block.type == "text"
@@ -67,6 +68,8 @@ def chat(system: str | None = None):
 
 
 if __name__ == "__main__":
-    chat()
+    system_context="you are drunk, and a drunks does, the have hiccups when they talk"
+    temperatute_contex=1.0
+    chat(system=system_context,temperature=temperatute_contex)
 
 

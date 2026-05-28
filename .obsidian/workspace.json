@@ -266,6 +266,10 @@
   },
   "active": "158339a856873793",
   "lastOpenFiles": [
+    "claude_chat.py.tmp.12296.7206971c2e74",
+    "claude_chat.py.tmp.12296.2cd4734de82c",
+    "claude_chat.py.tmp.12296.efa303eedcd5",
+    "claude_chat.py",
     "Claude API/System prompt.md",
     "Ideas for Claude resources.md",
     "Claude API/Notes.md",
@@ -283,9 +287,6 @@
     "base/Claude resource types.md.tmp.7184.dbff9652194c",
     "base/Folder structure.md.tmp.7184.97e483077798",
     "base/Good practices/Description.md.tmp.7184.edf331051a03",
-    "base/Skills.md.tmp.7184.012468ae7af6",
-    "base/Priority order.md.tmp.7184.41a6fd99e05e",
-    "base/Good practices/Description.md",
-    "base/Good practices"
+    "base/Good practices/Description.md"
   ]
 }
