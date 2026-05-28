@@ -67,16 +67,28 @@
             "id": "9d147d83f01716a3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c45428796dc75b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "img/Models.png"
+                "file": "Getting started with api.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Models"
+              "icon": "lucide-file",
+              "title": "Getting started with api"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -238,12 +250,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "54fe1d725674f5d5",
+  "active": "c45428796dc75b3c",
   "lastOpenFiles": [
+    "request01.py.tmp.21900.c6030ca45e53",
+    "request01.py",
+    "Getting started with api.md",
+    "Untitled.md",
+    "img/Models.png",
     "img",
     "base/Models.md",
-    "img/Models.png",
-    "Untitled.md",
     "base/Priority order.md",
     "Claude API",
     "base/Skills.md",
@@ -256,8 +271,6 @@
     "base/Priority order.md.tmp.7184.41a6fd99e05e",
     "base/Good practices/Description.md",
     "base/Good practices",
-    "base/skills.md.tmp.18012.10932173db7d",
-    "Priority order.md.tmp.18012.2d9231e9576c",
-    "base"
+    "base/skills.md.tmp.18012.10932173db7d"
   ]
 }
