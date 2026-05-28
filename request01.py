@@ -18,17 +18,19 @@ def _get_client() -> anthropic.Anthropic:
     return _client
 
 
-def send_msg(msg: str = "Hi") -> anthropic.types.Message:
+def send_msg(msg: str = "Hi", system: str | None = None) -> anthropic.types.Message | None:
     client = _get_client()
     response: anthropic.types.Message | None = None
     try:
-        messages_history.append({"role":"user","content":msg})
+        messages_history.append({"role": "user", "content": msg})
         response = client.messages.create(
             model=MODEL_ID,
             max_tokens=MAX_TOKENS,
-            messages= messages_history
+            messages=messages_history,
+            **({"system": system} if system else {}),
         )
-        messages_history.append({"role": "assistant", "content": response.content[0].text})    
+        messages_history.append({"role": "assistant", "content": response.content[0].text})
+        
     except anthropic.AuthenticationError:
         print("Invalid API key. Check ANTHROPIC_API_KEY.")
     except anthropic.RateLimitError as e:
@@ -41,7 +43,7 @@ def send_msg(msg: str = "Hi") -> anthropic.types.Message:
         #     print(response.content[0].text)
     return response
 
-def chat():
+def chat(system: str | None = None):
     print("Chat with Claude  |  type 'exit' or 'quit' to stop\n")
     while True:
         try:
@@ -56,7 +58,7 @@ def chat():
             print("Goodbye!")
             break
 
-        response = send_msg(msg)
+        response = send_msg(msg,system)
         if response:
             text = "\n".join(
                 block.text for block in response.content if block.type == "text"

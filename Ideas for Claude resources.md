@@ -1,0 +1,2 @@
+- subagent + hook to ban dangerous or inadequate prompts
+- 
