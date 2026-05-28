@@ -44,7 +44,7 @@ def send_msg(msg: str = "Hi", system: str | None = None, temperature: float | No
         #     print(response.content[0].text)
     return response
 
-def chat(system: str | None = None, temperature: float = 1.0):
+def chat(system: str | None = None, temperature: float | None = None):
     print("Chat with Claude  |  type 'exit' or 'quit' to stop\n")
     while True:
         try:
@@ -67,9 +67,34 @@ def chat(system: str | None = None, temperature: float = 1.0):
             print(f"Claude: {text}\n")
 
 
+def stream_response(client, messages_history: list, system_context: str, temperature: float = 1.0) -> str:
+    stream = client.messages.create(
+        model=MODEL_ID,
+        max_tokens=1000,
+        system=system_context,
+        temperature=temperature,
+        messages=messages_history,
+        stream=True
+    )
+
+    full_reply = ""
+    for event in stream:
+        if event.type == "content_block_delta":
+            print(event.delta.text, end="", flush=True)
+            full_reply += event.delta.text
+
+    print()  # newline after stream ends
+    messages_history.append({"role": "assistant", "content": full_reply})
+    return full_reply
+
+
 if __name__ == "__main__":
-    system_context="you are drunk, and a drunks does, the have hiccups when they talk"
-    temperatute_contex=1.0
-    chat(system=system_context,temperature=temperatute_contex)
+    system_context = "you are drunk, and a drunk does, they have hiccups when they talk"
+    temperature_context = 1.0
 
+    client = _get_client()
+    while True:
+        user_input = input("YOU: ").strip()
+        messages_history.append({"role": "user", "content": user_input})
 
+        stream_response(client, messages_history, system_context, temperature_context)
