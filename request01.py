@@ -41,13 +41,30 @@ def send_msg(msg: str = "Hi") -> anthropic.types.Message:
         #     print(response.content[0].text)
     return response
 
+def chat():
+    print("Chat with Claude  |  type 'exit' or 'quit' to stop\n")
+    while True:
+        try:
+            msg = input("You: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nGoodbye!")
+            break
 
+        if not msg:
+            continue
+        if msg.lower() in {"exit", "quit"}:
+            print("Goodbye!")
+            break
 
-
+        response = send_msg(msg)
+        if response:
+            text = "\n".join(
+                block.text for block in response.content if block.type == "text"
+            )
+            print(f"Claude: {text}\n")
 
 
 if __name__ == "__main__":
-        response = send_msg(msg="say my name")
-        print(response.content[0].text)
+    chat()
 
 
