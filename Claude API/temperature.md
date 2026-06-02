@@ -1,20 +1,27 @@
+---
+tags: []
+created: 2026-05-29
+---
+
+# Temperature
+
 float
 
-### Low Temperature (0.0 - 0.3)
+## Low Temperature (0.0 - 0.3)
 
 - Factual responses
 - Coding assistance
 - Data extraction
 - Content moderation
 
-### Medium Temperature (0.4 - 0.7)
+## Medium Temperature (0.4 - 0.7)
 
 - Summarization
 - Educational content
 - Problem-solving
 - Creative writing with constraints
 
-### High Temperature (0.8 - 1.0)
+## High Temperature (0.8 - 1.0)
 
 - Brainstorming
 - Creative writing

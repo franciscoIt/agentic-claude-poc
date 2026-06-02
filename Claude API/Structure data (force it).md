@@ -1,5 +1,13 @@
- Solution recommended is to use an strategy of 
- ### Message Prefilling + Stop Sequences
+---
+tags: []
+created: 2026-05-29
+---
+
+# Structure Data (Force It)
+
+Solution recommended is to use an strategy of
+
+## Message Prefilling + Stop Sequences
 
 ``` python
 response = client.messages.create(

@@ -1,3 +1,10 @@
+---
+tags: []
+created: 2026-05-29
+---
+
+# System Prompt
+
 - System prompts provide Claude guidance on how to respond
 - Claude will try to respond in the same way someone in the specified role would respond
 - Helps keep Claude on task
@@ -16,3 +23,4 @@ client.messages.create(
     **[[system]]=system_prompt**
     
 )
+```

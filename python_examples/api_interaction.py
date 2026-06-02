@@ -279,6 +279,6 @@ def stream_response(client: anthropic.Anthropic, messages_history: list, system_
 
 
 if __name__ == "__main__":
-    start_sequence_var="```csv"
+    start_sequence_var="```c++"
     result = ask_structured_response("canciones mas populares en el año 1969",start_sequence_var, stop_sequences_var=["```"])
     print(result)
