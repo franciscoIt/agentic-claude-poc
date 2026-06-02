@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_upload.md",
+                "file": "Code execution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "container_upload"
+              "title": "Code execution"
             }
           }
         ],
@@ -340,28 +340,28 @@
   },
   "active": "7f7edd00c639a840",
   "lastOpenFiles": [
+    "container_upload.md",
+    "Code execution.md",
+    "img/Pasted image 20260602154646.png",
     "Claude API/Tool use.md.tmp.13204.8435de38cee9",
     "prompt engineering/strategies.md.tmp.13204.5202e1b76aa1",
     "RAG/Multiple index.md.tmp.13204.78ac9e7c23bc",
     "RAG/BM25 lexical search.md.tmp.13204.e47c68f23595",
     "Claude API/Fine grained tool call (bypass claude json validation).md.tmp.13204.9c9641b93ffd",
     "File API.md",
-    "container_upload.md",
-    "Pasted image 20260602170151.png",
-    "Pasted image 20260602165705.png",
-    "Code execution.md",
+    "img/Pasted image 20260602170151.png",
+    "img/Pasted image 20260602165705.png",
     "Claude API/Tool use.md",
     "Untitled.md",
     "Claude API/System prompt.md",
     "Caching.md",
-    "Pasted image 20260602161340.png",
-    "Pasted image 20260602160554.png",
+    "img/Pasted image 20260602161340.png",
+    "img/Pasted image 20260602160554.png",
     "pdf and Citations.md",
-    "Pasted image 20260602155700.png",
-    "Pasted image 20260602155528.png",
-    "Pasted image 20260602155237.png",
+    "img/Pasted image 20260602155700.png",
+    "img/Pasted image 20260602155528.png",
+    "img/Pasted image 20260602155237.png",
     "Claude API/Web search tool.md",
-    "Pasted image 20260602154646.png",
     "Claude API/Image handling.md",
     "Ideas for Claude resources.md",
     "img/Pasted image 20260602111626.png",
@@ -384,7 +384,6 @@
     "python_examples/Unconfirmed 131000.crdownload",
     "python_examples/rag.py",
     "RAG",
-    "prompt engineering/strategies.md.tmp.11508.350ac37ccdcf",
-    "prompt engineering/Use guidelines be specifig.md.tmp.11508.f9cbf6a615d5"
+    "prompt engineering/strategies.md.tmp.11508.350ac37ccdcf"
   ]
 }
