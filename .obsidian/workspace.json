@@ -13,15 +13,170 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude API/tool use.md",
+                "file": "RAG/Search (RAG).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tool use"
+              "title": "Search (RAG)"
+            }
+          },
+          {
+            "id": "3846169097902889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prompt engineering/strategies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "strategies"
+            }
+          },
+          {
+            "id": "b8b50dce84a9eee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude API/Web search tool.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Web search tool"
+            }
+          },
+          {
+            "id": "72f96f77c28eedbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extended thinking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Extended thinking"
+            }
+          },
+          {
+            "id": "a7d6f6c5db492755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude API/Image handling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Image handling"
+            }
+          },
+          {
+            "id": "9562fa90a93f3f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude API/Tool use.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tool use"
+            }
+          },
+          {
+            "id": "d5d2a0374ab95ebd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pdf and Citations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pdf and Citations"
+            }
+          },
+          {
+            "id": "20b7d809f6adf483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude API/Tool use.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tool use"
+            }
+          },
+          {
+            "id": "2ab6f01e83b018d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude API/Tool use.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tool use"
+            }
+          },
+          {
+            "id": "34c757a661b11a2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code execution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Code execution"
+            }
+          },
+          {
+            "id": "1bf345a7e7dc6f36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File API"
+            }
+          },
+          {
+            "id": "7f7edd00c639a840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "container_upload.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "container_upload"
             }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -53,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,51 +338,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "26deaab547c45510",
+  "active": "7f7edd00c639a840",
   "lastOpenFiles": [
-    "RAG/Search (RAG).md",
-    "Claude API/text edit tool.md",
+    "Claude API/Tool use.md.tmp.13204.8435de38cee9",
+    "prompt engineering/strategies.md.tmp.13204.5202e1b76aa1",
+    "RAG/Multiple index.md.tmp.13204.78ac9e7c23bc",
+    "RAG/BM25 lexical search.md.tmp.13204.e47c68f23595",
+    "Claude API/Fine grained tool call (bypass claude json validation).md.tmp.13204.9c9641b93ffd",
+    "File API.md",
+    "container_upload.md",
+    "Pasted image 20260602170151.png",
+    "Pasted image 20260602165705.png",
+    "Code execution.md",
+    "Claude API/Tool use.md",
+    "Untitled.md",
+    "Claude API/System prompt.md",
+    "Caching.md",
+    "Pasted image 20260602161340.png",
+    "Pasted image 20260602160554.png",
+    "pdf and Citations.md",
+    "Pasted image 20260602155700.png",
+    "Pasted image 20260602155528.png",
+    "Pasted image 20260602155237.png",
     "Claude API/Web search tool.md",
+    "Pasted image 20260602154646.png",
+    "Claude API/Image handling.md",
     "Ideas for Claude resources.md",
-    "img/Pasted image 20260602090709.png",
-    "img/Pasted image 20260602091707.png",
-    "img/Pasted image 20260602090806.png",
-    "RAG",
-    "img/Pasted image 20260602094127.png",
-    "Claude API/tool use.md",
-    "img/Pasted image 20260602091758.png",
-    "Claude API/Fine grained tool call (bypass claude json validation).md",
-    "img/Pasted image 20260601165647.png",
-    "img/Pasted image 20260601151752.png",
-    "img/Pasted image 20260601124104.png",
-    "img/Pasted image 20260601123544.png",
-    "img/Pasted image 20260601122816.png",
-    "prompt engineering/Workflow.md",
-    "prompt engineering/Use guidelines be specifig.md",
-    "prompt engineering/strategies.md",
+    "img/Pasted image 20260602111626.png",
+    "img/Pasted image 20260602143609.png",
+    "Extended thinking.md",
+    "Claude API/text edit tool.md",
+    "Claude API/Structure data (force it).md",
     "prompt engineering/Prompt evaluation.md",
     "prompt engineering/clear and concise.md",
-    "Claude API/temperature.md",
-    "Claude API/System prompt.md",
-    "Claude API/Structure data (force it).md",
-    "Claude API/Notes.md",
+    "prompt engineering/strategies.md",
+    "prompt engineering/Workflow.md",
+    "prompt engineering/Use guidelines be specifig.md",
     "prompt engineering/Provide examples.md",
-    "prompt engineering/strategies.md.tmp.11508.350ac37ccdcf",
-    "prompt engineering/Use guidelines be specifig.md.tmp.11508.f9cbf6a615d5",
-    "prompt engineering/clear and concise.md.tmp.11508.47166a0b9ba7",
-    "prompt engineering/Workflow.md.tmp.11508.078ac4c0bff1",
-    "Claude API/Structure data (force it).md.tmp.11508.bea4597fa656",
-    "Claude API/temperature.md.tmp.11508.06f9c52c0f76",
-    "Claude API/System prompt.md.tmp.11508.351e9abd81c9",
-    "Claude API/Notes.md.tmp.11508.8dbb303e7359",
-    "Claude API/Getting started with api.md.tmp.11508.673d741fcf64",
-    "base/Priority order.md",
-    "Prompt evaluation/Untitled.md",
+    "Claude API/temperature.md",
     "Claude API/Getting started with api.md",
-    "base/Models.md",
-    "base/Skills.md",
-    "base/Folder structure.md",
-    "base/Claude resource types.md",
-    "base/Good practices/Description.md"
+    "RAG/Multiple index.md",
+    "RAG/BM25 lexical search.md",
+    "RAG/Search (RAG).md",
+    "python_examples/hybrid_RAG.ipynb",
+    "python_examples/Unconfirmed 131000.crdownload",
+    "python_examples/rag.py",
+    "RAG",
+    "prompt engineering/strategies.md.tmp.11508.350ac37ccdcf",
+    "prompt engineering/Use guidelines be specifig.md.tmp.11508.f9cbf6a615d5"
   ]
 }

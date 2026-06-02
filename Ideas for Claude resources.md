@@ -10,3 +10,7 @@ created: 2026-05-29
 - refactor to get a claudeManager
 - middleware for prompts, logging, policy validator, router for a rag or external websites.
 - prompt evaluator(with a report in html)
+- Using map and image mapping, coordenates, classify by:
+	- fire risk
+	- New buildings
+	- 
