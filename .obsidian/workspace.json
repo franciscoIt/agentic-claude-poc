@@ -174,9 +174,63 @@
               "icon": "lucide-file",
               "title": "Code execution"
             }
+          },
+          {
+            "id": "dd64b3bcb16c3247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MCP/MCP notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MCP notes"
+            }
+          },
+          {
+            "id": "218ceb0b77267763",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "img/Pasted image 20260602201122.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260602201122"
+            }
+          },
+          {
+            "id": "38b5d91f6ffde8ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude Code/Skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Skills"
+            }
+          },
+          {
+            "id": "6647230e82954227",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude Code/Priority order.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Priority order"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -208,7 +262,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -338,52 +392,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "7f7edd00c639a840",
+  "active": "6647230e82954227",
   "lastOpenFiles": [
-    "container_upload.md",
+    "- Ideas for Claude resources.md.tmp.23084.0d79be2b3ce1",
+    "Claude Code/Hooks.md.tmp.23084.18d07807461a",
+    "- Ideas for Claude resources.md.tmp.23084.6b5fddacafa3",
+    "Claude API/System prompt.md.tmp.23084.ea3cf5329052",
+    "Claude Code/When to Use Planning vs Effort.md.tmp.23084.ac31753de1f6",
+    "Claude API/Prompts.md.tmp.23084.60410e08e862",
+    "Claude Code/Setting up a project.md.tmp.23084.50f999ab7ff5",
+    "Claude API/adjetives to define the tone.md.tmp.23084.759f17b9c2a3",
+    "MCP/MCP notes.md.tmp.23084.f69b709b26ab",
+    "MCP/Prompts (mcp).md.tmp.23084.eb03e91606cf",
+    "MCP/Resources.md.tmp.23084.fac3896d0e6d",
+    "Claude Code/Setting up a project.md",
+    "Claude Code/Models.md",
+    "Claude Code/Priority order.md",
+    "Claude Code/Hooks.md",
+    "Claude Code/Folder structure.md",
+    "Claude Code/Description.md",
+    "Claude Code/Claude .. types.md",
+    "- Ideas for Claude resources.md",
+    "img/Pasted image 20260604073508.png",
+    "img/Pasted image 20260604075911.png",
+    "Claude Code/When to Use Planning vs Effort.md",
+    "Claude Code/Skills.md",
+    "Claude API/adjetives to define the tone.md",
+    "Claude API/Caching.md",
+    "Claude API/Extended thinking.md",
+    "Claude API/container_upload.md",
     "Code execution.md",
-    "img/Pasted image 20260602154646.png",
-    "Claude API/Tool use.md.tmp.13204.8435de38cee9",
-    "prompt engineering/strategies.md.tmp.13204.5202e1b76aa1",
-    "RAG/Multiple index.md.tmp.13204.78ac9e7c23bc",
-    "RAG/BM25 lexical search.md.tmp.13204.e47c68f23595",
-    "Claude API/Fine grained tool call (bypass claude json validation).md.tmp.13204.9c9641b93ffd",
-    "File API.md",
-    "img/Pasted image 20260602170151.png",
-    "img/Pasted image 20260602165705.png",
-    "Claude API/Tool use.md",
-    "Untitled.md",
-    "Claude API/System prompt.md",
-    "Caching.md",
-    "img/Pasted image 20260602161340.png",
-    "img/Pasted image 20260602160554.png",
-    "pdf and Citations.md",
-    "img/Pasted image 20260602155700.png",
-    "img/Pasted image 20260602155528.png",
-    "img/Pasted image 20260602155237.png",
-    "Claude API/Web search tool.md",
-    "Claude API/Image handling.md",
-    "Ideas for Claude resources.md",
-    "img/Pasted image 20260602111626.png",
-    "img/Pasted image 20260602143609.png",
-    "Extended thinking.md",
-    "Claude API/text edit tool.md",
-    "Claude API/Structure data (force it).md",
-    "prompt engineering/Prompt evaluation.md",
-    "prompt engineering/clear and concise.md",
+    "Claude API/File API.md",
+    "Claude API/Prompts.md",
+    "img/Pasted image 20260603154325.png",
+    "Claude API/pdf and Citations.md",
+    "img/Pasted image 20260603154510.png",
+    "img/Pasted image 20260603113430.png",
     "prompt engineering/strategies.md",
-    "prompt engineering/Workflow.md",
-    "prompt engineering/Use guidelines be specifig.md",
-    "prompt engineering/Provide examples.md",
-    "Claude API/temperature.md",
-    "Claude API/Getting started with api.md",
-    "RAG/Multiple index.md",
-    "RAG/BM25 lexical search.md",
-    "RAG/Search (RAG).md",
-    "python_examples/hybrid_RAG.ipynb",
-    "python_examples/Unconfirmed 131000.crdownload",
-    "python_examples/rag.py",
-    "RAG",
-    "prompt engineering/strategies.md.tmp.11508.350ac37ccdcf"
+    "prompt engineering/Prompt evaluation.md",
+    "img/Pasted image 20260603133627.png",
+    "img/Pasted image 20260602201122.png",
+    "img/Pasted image 20260602201852.png",
+    "MCP/MCP notes.md",
+    "img/Pasted image 20260602175532.png",
+    "Untitled 1.md",
+    "MCP/Prompts (mcp).md",
+    "img/Pasted image 20260602195838.png",
+    "MCP/Resources.md",
+    "Claude API/Tool use.md"
   ]
 }

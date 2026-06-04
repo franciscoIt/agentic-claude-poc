@@ -24,4 +24,5 @@ client.messages.create(
     
 )
 ```
+
 ![[Pasted image 20260602123952.png]]

@@ -13,4 +13,10 @@ created: 2026-05-29
 - Using map and image mapping, coordenates, classify by:
 	- fire risk
 	- New buildings
-	- 
+- With playwright mcp, a form filler. And document to upload selector.
+- Self managed date and calendar generator.
+- Occupied houses map.
+- check github mcp
+
+![[Pasted image 20260602201852.png]]
+

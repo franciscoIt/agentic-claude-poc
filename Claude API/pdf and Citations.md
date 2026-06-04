@@ -1,7 +1,16 @@
+---
+tags: []
+created: 2026-06-04
+---
+
+# PDF and Citations
+
 ![[Pasted image 20260602155237.png]]
-### pdf 
+
+## pdf
+
 ![[Pasted image 20260602155528.png]]
 
+## Citations
 
-### Citations 
 ![[Pasted image 20260602155700.png]]
