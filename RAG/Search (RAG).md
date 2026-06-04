@@ -5,7 +5,6 @@ created: 2026-06-02
 
 # Search (RAG)
 
-[[BM25 lexical search]]
 voyageAI is the claude partner.
 
 ## The Ingestion Phase (Voyage AI's First Role)
@@ -33,3 +32,15 @@ If you want a managed service where you just send text to an API and get vectors
 **Claude's Part:** The RAG system takes the top-ranked text chunks provided by Voyage AI and sends them to Claude (e.g., Claude 3.5 Sonnet) alongside the user's original prompt.
 
 Claude reads the provided context, applies its advanced reasoning, and generates a fluent, accurate, and helpful answer for the user based _only_ on those retrieved documents.
+
+## BM25 Lexical Search
+
+Algorithms are applied to fine tune rags. IMplemeneted manually.
+
+![[Pasted image 20260602110011.png]]
+
+![[Pasted image 20260602110335.png]]
+
+## Multiple Index
+
+![[Pasted image 20260602111626.png]]

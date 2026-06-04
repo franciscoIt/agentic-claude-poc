@@ -15,10 +15,6 @@ created: 2026-06-02
 
 ![[Pasted image 20260601151752.png]]
 
-- [[Fine grained tool call (bypass claude json validation)]]
-- [[text edit tool]]
-- [[Web search tool]]
-
 ## Anthropic API Built-In Tools
 
 | Approach                      | When to use it                                                | What to expect                                                                        | Learn more                                                                                     |
@@ -89,3 +85,27 @@ These tools are injected into the agent's context using the standard `"type": "c
 - **WebSearch**: Performs external web searches for context.
 - **ListMcpResourcesTool** / **ReadMcpResourceTool**: Interfaces with local MCP servers.
 - **Skill**: Executes user-defined, reusable project workflows.
+
+---
+
+## Text Edit Tool
+
+There are build in "functions", that are called through .json with specific name and type through schemas.
+
+![[Pasted image 20260602090709.png]]
+
+That will "import" the extended schema
+
+![[Pasted image 20260602090806.png]]
+
+## Web Search Tool
+
+![[Pasted image 20260602091707.png]]
+
+![[Pasted image 20260602091758.png]]
+
+![[Pasted image 20260602094127.png]]
+
+## Fine-Grained Tool Calls
+
+![[Pasted image 20260601165647.png]]
