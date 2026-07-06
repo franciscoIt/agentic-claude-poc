@@ -4,6 +4,10 @@ created: 2026-05-29
 ---
 
 # Prompt Engineering
+[Technique hierarchy](https://claudecertificationguide.com/learn/3-claude-code-config/3-5-iterative-refinement#the-technique-hierarchy)
+[Iterative refinement]([esson 3.5: Iterative Refinement Techniques (Example-based communication)](https://claudecertificationguide.com/learn/3-claude-code-config/3-5-iterative-refinement#example-based-communication-in-practice))
+[False positive trust problem](https://claudecertificationguide.com/learn/4-prompt-engineering/4-1-system-prompts#the-false-positive-trust-problem)
+
 
 ## Strategies
 

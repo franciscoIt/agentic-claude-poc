@@ -1,0 +1,1 @@
+<iframe src="https://claudecertificationguide.com/learn/3-claude-code-config/3-3-path-specific-rules" width="100%" height="600px"></iframe>

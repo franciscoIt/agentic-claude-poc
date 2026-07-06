@@ -17,6 +17,7 @@ created: 2026-05-29
 - Self managed date and calendar generator.
 - Occupied houses map.
 - check github mcp
+- add an http error handler for an agent
 
 ![[Pasted image 20260602201852.png]]
 
